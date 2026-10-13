@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M56 13.3132V18.8586H8V13.3132C8 11.7608 9.25354 10.5072 10.7976 10.5072H53.194C54.7465 10.5072 56 11.7608 56 13.3132Z" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M56 18.8583V50.6867C56 52.2391 54.7465 53.4926 53.194 53.4926H10.7976C9.25354 53.4926 8 52.2391 8 50.6867V18.8583H56Z" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.752 14.6823H14.4908" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50.5456 15.8865L48.1465 13.4874" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M48.1465 15.8865L50.5456 13.4874" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.3613 14.6823H19.1001" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.9688 14.6823H23.7076" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.0332 28.4805H28.2653" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34.6406 28.4805H46.9685" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.3526 26.0565H29.5505C28.8398 26.0565 28.2637 26.6326 28.2637 27.3433V29.6262C28.2637 30.3369 28.8398 30.913 29.5505 30.913H33.3526C34.0632 30.913 34.6394 30.3369 34.6394 29.6262V27.3433C34.6394 26.6326 34.0632 26.0565 33.3526 26.0565Z" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.0332 36.3582H23.11" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29.4844 36.3582H46.9676" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28.1968 38.7906H24.3864C23.6725 38.7906 23.0996 38.2095 23.0996 37.5038V35.2209C23.0996 34.5152 23.6725 33.9341 24.3864 33.9341H28.1968C28.9025 33.9341 29.4752 34.5152 29.4752 35.2209V37.5038C29.4752 38.2095 28.9025 38.7906 28.1968 38.7906Z" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.0332 44.2366H31.4531" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37.8359 44.2366H46.9677" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36.5484 46.669H32.738C32.024 46.669 31.4512 46.0879 31.4512 45.3822V43.0993C31.4512 42.3937 32.024 41.8126 32.738 41.8126H36.5484C37.254 41.8126 37.8269 42.3937 37.8269 43.0993V45.3822C37.8269 46.0879 37.254 46.669 36.5484 46.669Z" stroke="#262626" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

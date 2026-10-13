@@ -1,0 +1,101 @@
+# MHP Brand Design System — Components
+
+Reference file for generating on-brand code, layouts, and assets. Rules below are constraints, not suggestions — treat "Forbidden" as hard blocks in generated output.
+
+---
+
+## Logo
+- **Placement — allowed:** top-right or center-top only
+- **Placement — forbidden:** bottom-middle, bottom-right, bottom-left
+- **Clear space:** minimum 100% of the figurative mark's height on all sides, always
+- **Forbidden:** flipping, rotating, recoloring outside approved variants, dropping mandatory descriptors (e.g. "A Porsche Company"), stretching, distorting, redesigning, making it part of a sentence/word group
+- Always scale proportionally; always use the official version from the Brand Space
+
+### Variants
+| Variant | Usage |
+|---|---|
+| Vital Trust (full blue) | On light surfaces, light photos, Zircon or White backgrounds |
+| White | On dark/colored backgrounds |
+| Almost Black | Special applications |
+
+### Official SVG (source of truth — do not redraw)
+```svg
+<svg width="150" height="60" viewBox="0 0 150 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M94.9666 21.2937H110.598V36.335H116.791V0H110.598V15.9261H94.9666V0H88.7731V36.335H94.9666V21.2937Z" fill="#1612FF"/>
+<path d="M129.886 21.2937H138.026C145.34 21.2937 150 17.9316 150 10.6764C150 3.42115 145.281 0 138.026 0H123.692V36.335H129.886V21.2937ZM129.886 5.42666H137.849C141.978 5.42666 143.689 6.84231 143.689 10.6764C143.689 14.5104 142.096 15.9261 137.849 15.9261H129.886V5.42666Z" fill="#1612FF"/>
+<path d="M6.13446 0H0.0589665V36.335H6.13446V0Z" fill="#1612FF"/>
+<path d="M36.394 0H30.3185V36.335H36.394V0Z" fill="#1612FF"/>
+<path d="M24.243 0H18.2265L15.8671 14.1565H21.9426L24.243 0Z" fill="#1612FF"/>
+<path d="M20.9398 20.173H14.8643L12.21 36.335H18.2265L20.9398 20.173Z" fill="#1612FF"/>
+<path d="M3.6571 49.7837L0 59.6933H1.17971L2.12348 57.1569H6.60637L7.55013 59.6933H8.78883L5.07275 49.7837H3.6571ZM2.47739 56.0952L4.42391 51.0224L6.31144 56.0952H2.47739Z" fill="#1612FF"/>
+<path d="M18.8753 49.7837H15.1593V59.6933H16.339V55.9182H18.8753C20.8219 55.9182 22.0606 54.9744 22.0606 52.851C22.0606 50.7275 20.8219 49.7837 18.8753 49.7837ZM18.8753 54.9155H16.339V50.7865H18.8753C20.114 50.7865 20.8808 51.4353 20.8808 52.851C20.8808 54.2666 20.114 54.9155 18.8753 54.9155Z" fill="#1612FF"/>
+<path d="M27.4282 49.6657C25.0688 49.6657 23.5942 50.9044 23.5942 53.2049V56.2721C23.5942 58.5136 25.0688 59.8112 27.4282 59.8112C29.7877 59.8112 31.2623 58.5725 31.2623 56.2721V53.2049C31.2623 50.9044 29.7877 49.6657 27.4282 49.6657ZM30.0826 56.2721C30.0826 57.8647 29.1388 58.8085 27.4282 58.8085C25.7177 58.8085 24.7739 57.8647 24.7739 56.2721V53.2049C24.7739 51.6123 25.7177 50.6685 27.4282 50.6685C29.1388 50.6685 30.0826 51.6123 30.0826 53.2049V56.2721Z" fill="#1612FF"/>
+<path d="M40.7 52.851C40.7 50.7275 39.4613 49.7837 37.5147 49.7837H33.5627C33.5627 49.7837 33.5627 59.6933 33.6217 59.6933H34.8014V55.9182H37.6917L39.4613 59.6933H40.8179L38.8714 55.7412C39.9921 55.3873 40.7 54.4436 40.7 52.851ZM37.4558 54.9155H34.7424V50.7865H37.4558C38.6945 50.7865 39.4613 51.4353 39.4613 52.851C39.4613 54.2666 38.6945 54.9155 37.4558 54.9155Z" fill="#1612FF"/>
+<path d="M47.4833 54.3846L45.5957 54.0307C44.652 53.7947 44.0621 53.3228 44.0621 52.3791C44.0621 51.4353 44.8289 50.6685 46.3626 50.6685C47.8962 50.6685 48.722 51.3173 48.722 52.615V52.733H49.9017V52.615C49.9017 50.6095 48.604 49.6068 46.3626 49.6068C44.1211 49.6068 42.8234 50.5505 42.8234 52.3791C42.8234 54.2076 43.7672 54.7385 45.3008 55.0334L47.1884 55.3873C48.1321 55.6233 48.722 56.0952 48.781 57.0389C48.781 58.2186 47.8962 58.8085 46.3626 58.8085C44.8289 58.8085 43.9442 58.1596 43.9442 56.862V56.744H42.7644V56.862C42.7644 58.8675 44.1211 59.8702 46.3626 59.8702C48.604 59.8702 49.9607 58.8675 49.9607 56.9799C49.9607 55.0924 49.0759 54.6795 47.4833 54.3846Z" fill="#1612FF"/>
+<path d="M55.8002 49.6657C53.4408 49.6657 51.9662 50.9044 51.9662 53.2049V56.2721C51.9662 58.5136 53.4408 59.8112 55.8002 59.8112C58.1596 59.8112 59.5163 58.6315 59.5163 56.5081H58.3366C58.3366 57.9827 57.3928 58.8085 55.8002 58.8085C54.2076 58.8085 53.1459 57.8647 53.1459 56.2721V53.2049C53.1459 51.6123 54.1486 50.6685 55.8002 50.6685C57.4518 50.6685 58.3366 51.4943 58.3366 52.9099C58.3366 52.9689 59.5163 52.9689 59.5163 52.9689C59.5163 50.8455 58.1007 49.6657 55.8002 49.6657Z" fill="#1612FF"/>
+<path d="M68.0102 54.2076H62.9965V49.7837H61.8167V59.6933H62.9965V55.2104H68.0102V59.6933H69.1899V49.7837H68.0102V54.2076Z" fill="#1612FF"/>
+<path d="M71.6673 59.6343H78.0967V58.6315H72.847V55.2104H77.3889V54.2076H72.847V50.7865H78.0967V49.7837H71.6673V59.6343Z" fill="#1612FF"/>
+<path d="M88.8911 49.6657C86.5317 49.6657 85.057 50.9044 85.057 53.2049V56.2721C85.057 58.5136 86.5317 59.8112 88.8911 59.8112C91.2505 59.8112 92.6072 58.6315 92.6072 56.5081H91.4274C91.4274 57.9827 90.4837 58.8085 88.8911 58.8085C87.2985 58.8085 86.2367 57.8647 86.2367 56.2721V53.2049C86.2367 51.6123 87.2395 50.6685 88.8911 50.6685C90.5427 50.6685 91.4274 51.4943 91.4274 52.9099C91.4274 52.9689 92.6072 52.9689 92.6072 52.9689C92.6072 50.8455 91.1915 49.6657 88.8911 49.6657Z" fill="#1612FF"/>
+<path d="M98.2698 49.6657C95.9103 49.6657 94.4357 50.9044 94.4357 53.2049V56.2721C94.4357 58.5136 95.9103 59.8112 98.2698 59.8112C100.629 59.8112 102.104 58.5725 102.104 56.2721V53.2049C102.104 50.9044 100.629 49.6657 98.2698 49.6657ZM100.924 56.2721C100.924 57.8647 99.9803 58.8085 98.2698 58.8085C96.5592 58.8085 95.6154 57.8647 95.6154 56.2721V53.2049C95.6154 51.6123 96.5592 50.6685 98.2698 50.6685C99.9803 50.6685 100.924 51.6123 100.924 53.2049V56.2721Z" fill="#1612FF"/>
+<path d="M108.71 55.6233L105.584 49.7837H104.463V59.6933H105.643V52.0842L108.71 57.8647L111.836 52.0842V59.6933C111.777 59.6933 112.957 59.6933 112.957 59.6933V49.7837H111.836L108.71 55.6233Z" fill="#1612FF"/>
+<path d="M119.151 49.7837H115.435V59.6933H116.614V55.9182H119.151C121.097 55.9182 122.336 54.9744 122.336 52.851C122.336 50.7275 121.097 49.7837 119.151 49.7837ZM119.151 54.9155H116.614V50.7865H119.151C120.389 50.7865 121.156 51.4353 121.156 52.851C121.156 54.2666 120.389 54.9155 119.151 54.9155Z" fill="#1612FF"/>
+<path d="M125.934 49.7837L122.218 59.6933H123.398L124.341 57.1569H128.824L129.768 59.6933H131.007L127.35 49.7837H125.934ZM124.636 56.0952L126.583 51.0224L128.47 56.0952H124.636Z" fill="#1612FF"/>
+<path d="M138.793 57.5698L133.661 49.7837H132.54V59.6933H133.72V51.9072L138.852 59.6933H139.972V49.7837H138.793V57.5698Z" fill="#1612FF"/>
+<path d="M145.753 54.7385L142.863 49.7837H141.447L145.163 55.9182V59.6933H146.343V55.9182L150 49.7837H148.643L145.753 54.7385Z" fill="#1612FF"/>
+<path d="M65.7688 16.5749L55.3873 0H49.7247V36.335H55.9182V11.4432L65.8278 27.2513L75.7373 11.4432V36.335H81.8718V0H76.1502L65.7688 16.5749Z" fill="#1612FF"/>
+</svg>
+```
+
+---
+
+## Slash
+
+Full spec (geometry, color-by-background rules, sizing hierarchy, grid system, spatial/typography rules, application-by-channel guidance, dos and don'ts) now lives in `slash-system.md` — load that file for any Slash-related task. Quick facts only, below:
+
+- Exactly 10° angle, fixed and non-negotiable, sharp/non-rounded geometry.
+- **Forbidden:** more than one Slash element per composition; combining with arrows or arrow-like graphics; rotating, cropping, deforming, or using with numbers.
+- Color is background-dependent, not a flat default — see the Color System table in `slash-system.md`.
+- Do not alter the path geometry below — this is the single source of truth, replacing any freehand approximation.
+
+### Official SVG (source of truth — do not redraw)
+```svg
+<svg width="497" height="900" viewBox="0 0 497 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 900H337.5L496.19 0H158.69L0 900Z" fill="#1612FF"/>
+</svg>
+```
+
+---
+
+## Pills
+Pills are rounded rectangles used to frame buttons, single-line text fields, tags, and labels. They are functional elements, not decorative ones.
+
+| Type | Style | Usage |
+|---|---|---|
+| Main Pill | Solid Kinetic Kiwi #DDEF03 fill, Almost Black text | The single primary CTA per surface (one use only) |
+| Secondary Pill | Solid Vital Trust #1612FF fill (on light backgrounds), White fill with Vital Trust text (on Vital Trust/dark backgrounds), White text on solid fill | Secondary actions |
+| Tertiary Pill | Outline only — Vital Trust outline/text on light backgrounds, White outline/text on Vital Trust/dark backgrounds | Tertiary actions / labels |
+| Alternative Pill | Solid Sprout Mint #00CC67 fill | Green/sustainability or positive-outcome themes only |
+
+**Background-adaptive rule:** Secondary and Tertiary pills flip their treatment depending on the surface — on a light/Zircon background, Secondary is solid Vital Trust and Tertiary is a Vital Trust outline; on a Vital Trust or dark background, Secondary becomes a solid White fill and Tertiary becomes a White outline. Main and Alternative pills keep their fill color regardless of background.
+
+**Rules:**
+- Always rounded corners (half-circle radius on outer ends)
+- **Forbidden:** removing corner rounding, overloading with content, decorative-only use
+- Uniform sizing across pills of the same kind on one surface
+- Pills pair well with squares/rectangles — mix rounded and angular elements
+- **Margin:** generous surrounding margin when used as a CTA button; margin decreases significantly when the same pill style is used as a label or tag instead of a button
+- Main Pill is single-use per surface — never more than one Main Pill on the same screen/section
+- Sprout Mint (Alternative Pill) is reserved for green/sustainability or positive-outcome contexts — follow the standard hierarchy (Main → Secondary → Tertiary) for all other cases
+
+---
+
+## Icons
+- **Allowed:** only icons from the MHP icon library (see `assets/icons/`, browse via `assets/icon-sheets/`, fetch with `scripts/icons.py`)
+- **Forbidden:** custom, third-party, or self-made icons; off-brand recoloring; pixelated/unclear icons
+- If a container is needed, use a circle
+- Maintain even spacing; keep clear and simple, no crowding
+- Icon stroke: Set each icon's line weight relative to its rendered size, at about 3% of the icon's width (1/32), and use the same ratio for every icon in a composition so that details stay clear at any scale without lines looking too thin or filling in.
+
+---
+
+**Contact:** Brand questions: brand@mhp.com
